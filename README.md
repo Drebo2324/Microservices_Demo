@@ -1,3 +1,4 @@
+# Overview
 This project consists of the microservices: Movie Catalog Service, Movie Ratings Service, Movie Info Service, and the Eureka Server. This is a simple movie catalog system that will allow users to create a list of movies and attach ratings to them. 
 
 I used Eureka for service discovery between the microservices. The Movie Catalog Service fetches data from both the Movie Info Service and the Movie Ratings Service to consolidate the data and return it to the client. I implemented fault-tolerant communication between services using Resilience4J to handle potential failures. 
